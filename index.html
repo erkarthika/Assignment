@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Progress Bar</title>
+
+<link href="custom.css" rel="stylesheet">
+<script type="text/javascript" src="script.js"> </script>
+
+</head>
+<body>
+<div class="row">
+<div class="col-md-12">
+<div class="main-container">
+
+<div>
+	<div class="bar" >
+	<div class="bar-text" id="progress_bar1" style="width: 33%;">33%</div>
+	</div>
+	<div class="bar" >
+	<div id="progress_bar2" class="bar-text" style="width: 54%;">54%</div>
+	</div>
+	<div class="bar" >
+	<div class="bar-text" id="progress_bar3" style="width: 42%;">42%</div>
+	</div>
+</div>
+<div class="selection">
+	<select id="progressbar">
+		<option value="progress_bar1">Progress1</option>
+		<option value="progress_bar2">Progress2</option>
+		<option value="progress_bar3">Progress3</option>
+	</select>
+	<input type="button" onclick="checkfun(this.value)" value="38" />
+	<input type="button" onclick="checkfun(this.value)" value="6" />
+	<input type="button" onclick="checkfun(this.value)" value="-32" />
+	<input type="button" onclick="checkfun(this.value)" value="-50" />
+
+</div>
+
+</div>
+</div>
+</div>
+</body>
+</html>
